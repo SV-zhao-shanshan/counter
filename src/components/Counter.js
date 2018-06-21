@@ -6,12 +6,10 @@ export default class Counter extends Component {
     return (
       <p>
         Clicked: {value} times
-        {' '}
+        <br/>
         <button onClick={onIncrement}>+</button>
         {' '}
         <button onClick={onDecrement}>-</button>
-        {' '}
-
       </p>
     );
   }
